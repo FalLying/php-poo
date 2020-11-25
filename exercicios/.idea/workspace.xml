@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be963b2-fe3f-4108-8955-67a94d21ba27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05/ContaBanco.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/index.php" afterDir="false" />
+    <list default="true" id="8be963b2-fe3f-4108-8955-67a94d21ba27" name="Default Changelist" comment="Example">
+      <change afterPath="$PROJECT_DIR$/06/Controlador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/ControleRemoto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Caneta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,8 +58,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606153077807</updated>
       <workItem from="1606153079343" duration="3551000" />
-      <workItem from="1606157383599" duration="2517000" />
+      <workItem from="1606157383599" duration="5106000" />
+      <workItem from="1606329391954" duration="2080000" />
     </task>
+    <task id="LOCAL-00001" summary="Example">
+      <created>1606159946582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606159946582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,15 +84,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="837" y="92" key="NewPhpClassDialog" timestamp="1606157408662">
+    <state x="390" y="12" key="#PHP" timestamp="1606160324270">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="837" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1606157408662" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606159007656">
+    <state x="390" y="12" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1606160324270" />
+    <state x="488" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1606162046689">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606159007656" />
+    <state x="488" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1606162046689" />
+    <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1606160320997">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1606160320997" />
+    <state x="837" y="92" key="NewPhpClassDialog" timestamp="1606162007096">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="837" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1606162007096" />
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606330653524">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606330653524" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606159955835">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606159955835" />
   </component>
 </project>
