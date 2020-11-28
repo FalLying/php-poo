@@ -5,19 +5,33 @@ class Video implements AcoesVideo
 {
     private $titulo, $avaliacao, $views, $curtidas, $reproduzindo;
 
+    /**
+     * Video constructor.
+     * @param $titulo
+     */
+    public function __construct($titulo)
+    {
+        $this->titulo = $titulo;
+        $this->avaliacao = 1;
+        $this->views = 0;
+        $this->curtidas = 0;
+        $this->reproduzindo = false;
+    }
+
+
     function play()
     {
-        // TODO: Implement play() method.
+        $this->reproduzindo = true;
     }
 
     function pause()
     {
-        // TODO: Implement pause() method.
+        $this->reproduzindo = false;
     }
 
     function like()
     {
-        // TODO: Implement like() method.
+        $this->curtidas++;
     }
 
     /**
@@ -73,7 +87,8 @@ class Video implements AcoesVideo
      */
     public function setAvaliacao($avaliacao): void
     {
-        $this->avaliacao = $avaliacao;
+        $media = ($this->avaliacao + $avaliacao) / $this->views;
+        $this->avaliacao = $media;
     }
 
     /**

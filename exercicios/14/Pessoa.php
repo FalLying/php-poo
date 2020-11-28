@@ -5,9 +5,23 @@ class Pessoa
 {
     protected $nome, $idade, $sexo, $experiencia;
 
-    protected function ganharExp()
+    /**
+     * Pessoa constructor.
+     * @param $nome
+     * @param $idade
+     * @param $sexo
+     */
+    public function __construct($nome, $idade, $sexo)
     {
+        $this->nome = $nome;
+        $this->idade = $idade;
+        $this->sexo = $sexo;
+        $this->experiencia = 0;
+    }
 
+    protected function ganharExp($experiencia)
+    {
+        $this->experiencia = $experiencia;
     }
 
     /**

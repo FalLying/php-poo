@@ -5,9 +5,20 @@ class Gafanhoto extends Pessoa
 {
     private $login, $totAssistido;
 
+    /**
+     * Gafanhoto constructor.
+     * @param $login
+     */
+    public function __construct($nome, $idade, $sexo, $login)
+    {
+        parent::__construct($nome, $idade, $sexo);
+        $this->login = $login;
+        $this->totAssistido = 0;
+    }
+
     function viuMaisUm()
     {
-
+        $this->totAssistido++;
     }
 
     /**
